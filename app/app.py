@@ -7,7 +7,13 @@ def home():
 
 @app.route('/api')
 def api():
-    return jsonify({"message": "Initial API response"})
+    return jsonify({
+        "name": "Sanika More",
+        "roll_no": "A042",
+        "branch": "DevOps",
+        "message": "Updated API from Sanika25More_new branch"
+    })
+
 
 if __name__ == '__main__':
     app.run(debug=True)
