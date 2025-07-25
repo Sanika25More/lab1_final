@@ -4,22 +4,18 @@
     <title>To-Do Form</title>
 </head>
 <body>
-    <h2>To-Do Form</h2>
-    <form action="#" method="post">
-        <!-- First commit: Item ID -->
-        <label for="itemId">Item ID:</label>
-        <input type="text" id="itemId" name="itemId"><br><br>
+    <h1>To-Do Form</h1>
+    <form action="/submittodoitem" method="POST">
+        <label for="item_id">Item ID:</label><br>
+        <input type="text" id="item_id" name="item_id" placeholder="Enter Item ID"><br><br>
 
-        <!-- Second commit: Item UUID -->
-        <label for="itemUUID">Item UUID:</label>
-        <input type="text" id="itemUUID" name="itemUUID"><br><br>
+        <label for="item_uuid">Item UUID:</label><br>
+        <input type="text" id="item_uuid" name="item_uuid" placeholder="Enter UUID"><br><br>
 
-        <!-- Third commit: Item Hash -->
-        <label for="itemHash">Item Hash:</label>
-        <input type="text" id="itemHash" name="itemHash"><br><br>
+        <label for="item_hash">Item Hash:</label><br>
+        <input type="text" id="item_hash" name="item_hash" placeholder="Enter Hash"><br><br>
 
         <input type="submit" value="Submit">
     </form>
 </body>
 </html>
-
